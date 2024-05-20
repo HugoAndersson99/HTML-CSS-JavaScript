@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 50px;
+    
+}
+#header{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: rgb(18, 151, 184);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+#header h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+#nav {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: #444;
+    
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+#nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+#nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+#footer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 18;
+    background-color: rgb(18, 151, 184);
+    text-align: center;
+}
+#footer p{
+    
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.cart-items{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 16;
+    background-color: rgb(119, 203, 224);
+    border-radius: 10px;
+    
+}
+.cart-items p {
+    margin-left: 5px;
+}
+.cart-items h3{
+    margin-left: 5px;
+}
+.cart-items button{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.cart-summary{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 16;
+    margin-left: 5px;
+}
+.cart-icon {
+    margin-left: auto;
+    padding: 0 20px; 
+    float: right;
+  }
+
+  #total {
+    float: left;
+    margin-top: 5px;
+  }
+
+  #buyButton {
+    background-color: #444;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    float:right;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .popup {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 300px;
+    background-color: #444;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+  }
+  
+ 
+  .popup-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }

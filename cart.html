@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+<div id="grid-container">
+    <div id="header">
+        <h1>Färghandeln i Höör</h1>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Om oss</a></li>
+            <li><a href="products.html">Produkter</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li class="cart-icon"><a href="cart.html">
+                Kundvagn <span id="cart-counter">0</span>
+                <i class="fas fa-shopping-cart"></i></a></li>
+            
+            
+        </ul>
+    </div>
+    <div class="cart-items">
+    
+
+    </div>
+    <div class="cart-summary">
+        <h2 id="total">Summa Totalt:</h2>
+        <button id="buyButton">Köp</button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" id="close-popup-btn">&times;</span>
+          <h2>Tack för ditt köp!</h2>
+          <p>Välkommen åter.</p>
+        </div>
+      </div>
+
+    <div id="footer"> <p>&copy; 2024 Färghandeln</p>
+    </div>
+</div>
+    <script src="scripts/cart.js"></script>
+    
+</body>
+</html>

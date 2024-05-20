@@ -1,0 +1,255 @@
+html, body{
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header, nav, main{
+    padding: 20px;
+    
+}
+
+#content{
+    min-height: calc(100% - 140px);
+    padding-bottom: 50px;
+}
+header{
+    background-color: rgb(18, 151, 184);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+nav{
+    background-color: #444;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    min-height: calc(100% - 140px);
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(18, 151, 184);
+    color: #fff;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+.image-containerOne {
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .image-containerTwo {
+    width: 45%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .rubrikOmOss {
+    font-size: 30px;
+  }
+
+  .textMain{
+    font-style: italic;
+    font-size: 25px;
+    margin: 0px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  
+  .product {
+    
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(233, 236, 236);
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 8px;
+    margin-bottom: 0px;
+  }
+  .product h2 {
+    margin-top: auto;
+    font-size: 17px;
+    
+  }
+  
+  .product h3 {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  
+  .product p {
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+    
+  }
+  
+  .product button {
+    
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+    
+  }
+  
+  .product button:hover {
+    background-color: #0056b3;
+  }
+  .buttons{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+  }
+  .buttons:hover {
+    background-color: #0056b3;
+  }
+
+  #utomhusButton{
+    float: right;
+  }
+  .cart-icon {
+    margin-left: auto;
+    padding: 0 20px; 
+    float: right;
+  }
+  
+  .cart-icon a {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+  
+  .cart-icon a:hover {
+    color: #2dcafa; 
+  }
+
+  .contact h2{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .contact p{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  #opening-hours{
+    float: right;
+    width: 33%;
+    display: inline-block;
+    background-color: #a8deee;
+    margin-right: 10%;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+  #contact-info{
+    width: 33%;
+    float: left;
+    display: block;
+    margin-left: 10%;
+    background-color: #a8deee;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+  #contact-info h2{
+    text-align: center;
+  }
+  #opening-hours h2{
+    text-align: center;
+  }
+  #contact-info p {
+    font-style: italic;
+    font-size: 20px;
+  }
+  #opening-hours p {
+    font-style: italic;
+    font-size: 20px;
+  }
+  .contact-text{
+    width: 40%;
+    margin-left: 33%;
+    margin-right: auto;
+    display: inline-block;
+    
+  }
+
+  .contact-text p {
+    font-style: italic;
+    font-size: 30px;
+  }
+
+  #number {
+    float: right;
+  }
+
+  
